@@ -1,0 +1,45 @@
+
+
+
+.position-fixed{
+    background-image: url(/imgae/btn.png);
+    bottom: 0;
+    right: 0;
+    width: 140px;
+    height: 152px;
+    background-repeat: no-repeat;
+//動畫
+    /*animation-name: dog;
+      animation-duration: 0.5s;
+      animation-iteration-count: infinite;*/
+}
+
+.position-fixed:hover{
+    background-image: url(/imgae/btn2.png);
+
+}
+//動畫
+/*@keyframes dog{
+    0%{
+        content: url(/imgae/btn.png);
+    }
+
+    25%{
+        content: url(/imgae/btn2.png);
+    }
+
+    50%{
+        content: url(/imgae/btn.png);
+    }
+    75%{
+        content: url(/imgae/btn2.png);
+    }
+    100%{
+        content: url(/imgae/btn.png);
+    }
+   
+}*/
+
+
+
+

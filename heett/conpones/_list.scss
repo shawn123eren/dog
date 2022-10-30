@@ -1,0 +1,114 @@
+//卡片陰影
+
+.text-in-img-hover{
+    p{
+        opacity: 0;
+        transition: opacity .5s;
+    }
+ 
+  }
+
+  .text-in-img-hover:hover{
+    p{
+        opacity: 1;
+    }
+    img{
+        filter:brightness(70%);
+        transition: .5s;
+    }
+}
+
+//領養專區換換圖hover
+.custom-card{
+    box-shadow: 0 .5rem 1rem rgba($black, .15);
+    transition: box-shadow 0.5s;
+    &:hover{
+        box-shadow: 0 1rem 2.5rem rgba($black, .35);
+        
+    }
+  
+}
+
+.custom-text a{
+    color: black;
+}
+
+.custom-card:hover{
+    img{
+        content: url(/imgae/dog01-hover.jpg);
+    }
+
+    .custom-text{
+        a{
+            color:#F9C745
+        }
+    }
+}
+
+.custom-card-2{
+    &:hover{
+        img{
+            content: url(/imgae/dog02-hover.jpg);
+        }
+    }
+}
+
+.custom-card-3{
+    &:hover{
+        img{
+            content: url(/imgae/dog02-hover-1.jpg);
+        }
+    }
+}
+
+//設計作品左方清單hover
+.list-hover a{
+    text-decoration:none;
+    color: $gray;
+}
+
+.list-hover {
+    &:hover{
+        ::before{
+            content: "— ";
+            color: #F9C745;
+        }
+        a{
+            color: #F9C745;
+        }
+    }
+}
+
+//領養專區下方頁數hover
+
+.page-hover a{
+    color: $dark;
+}
+
+.page-hover{
+    &:hover{
+        a{
+            color: #F9C745;
+            font-weight: bold;
+        }
+    }
+}
+//adoption-detail前往中途之家按鈕hover
+
+    .btn-hover{
+        &:hover{
+            a{
+                font-weight: bold;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+

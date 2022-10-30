@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.heet/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+      
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="/imgae/logo.jpg" alt=""></a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-3" href="#">服務介紹</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#">設計作品</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="nav-link" href="#">領養專區</a>
+              </li>
+              <li class="nav-item ps-3">
+                <a class="btn btn-info rounded-pill px-5" href="#">毛孩似顏繪</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- 橘線 -->
+      <div class="border-bottom border-info border-3 d-lg-none"></div>
+      <!-- 背景大圖 -->
+      <div class="serve-header d-none d-lg-block" style="background-image: url(/imgae/banner.jpg);"></div>
+      <div class="d-lg-none "><img src="/imgae/banner_service-sm.jpg" class="img-fluid mx-auto d-block" style="width: 100%; height: 100%; object-fit: cover;" alt=""></div>
+      <!-- 毛背景 -->
+      <div class="" style="background-image:url(/imgae/lightpaperfibers.jpg) ;"></div>
+      <!-- 表格 -->
+      <section class="container">
+        <div class=" py-5 d-flex justify-content-center">
+            <div class="col-11 col-lg-5 rounded-4 bg-white shadow">
+                <!-- 表格橘線隱藏 -->
+                <div class="rounded-4 overflow-hidden">
+                    <h1 class="h2 text-center py-5 fw-bold border-top border-info border-5">填寫訂購資訊</h1>
+                    <form class="row g-3 p-3 p-lg-4">
+                        <!-- 名字 -->
+                        <div class="col-lg-6">
+                            <label for="firstname" class="form-label">名字</label>
+                            <input type="text" class="form-control rounded-5" id="firstname">
+                        </div>
+                        <!-- 姓氏 -->
+                        <div class="col-lg-6">
+                            <label for="lastname" class="form-label">姓氏</label>
+                            <input type="text" class="form-control rounded-5" id="lastname">
+                        </div>
+                        <!-- 手機 -->
+                        <div class="col-12">
+                            <label for="cellphone" class="form-label">手機號碼</label>
+                            <input type="tel" class="form-control rounded-5" id="cellphone">
+                        </div>
+                        <!-- email -->
+                        <div class="col-12">
+                            <label for="email" class="form-label">電子郵件</label>
+                            <input type="email" class="form-control rounded-5" id="email">
+                        </div>
+                        <!-- 地址 -->
+                        <label for="adress" class="form-label mb-0">收件地址</label>
+                        <div class="col-12 col-lg-6 d-lg-flex justify-content-between mt-2">
+                            <select class="col-lg-6 form-select rounded-5">
+                                <option selected="">請選擇城市</option>
+                                <option>台北</option>
+                                <option>新北</option>
+                                <option>桃園</option>
+                                <option>新竹</option>
+                                <option>苗栗</option>
+                                <option>台中</option>
+                                <option>彰化</option>
+                                <option>雲林</option>
+                                <option>嘉義</option>
+                                <option>台南</option>
+                                <option>高雄</option>
+                                <option>屏東</option>
+                                <option>台東</option>
+                                <option>花蓮</option>
+                                <option>宜蘭</option>
+                                <option>基隆</option>
+                            </select>
+                            <select class="col-lg-6 form-select ms-lg-3 mt-2 mt-lg-0 rounded-5">
+                                <option selected="">請選擇區域</option>
+                                <option>東區</option>
+                                <option>西區</option>
+                                <option>南區</option>
+                                <option>北區</option>
+                            </select>
+                        </div>
+                        <div class="col-12 mt-2 ">
+                            <input type="text" class="form-control rounded-5" placeholder="請輸入詳細地址">
+                        </div>
+                        <!-- 選擇 -->
+                        <div class="col-12">
+                            <label for="style" class="form-label">選擇設計師風格</label>
+                            <select id="style" class="form-select rounded-5">
+                                <option selected="">Meili</option>
+                                <option>Zoe</option>
+                                <option>Michael</option>
+                                <option>Birdy</option>
+                            </select>
+                        </div>
+                        <!-- 付款 -->
+                        <div class="col-12">
+                            <label for="pay" class="form-label">付款方式</label>
+                            <select id="pay" class="form-select rounded-5">
+                                <option selected="">貨到付款</option>
+                                <option>信用卡結帳</option>
+                                <option>線上轉帳</option>
+                                <option>linePay</option>
+                            </select>
+                        </div>
+                        <!-- checkbox -->
+                        <div class="col-12">
+                            <p class="mb-2">加購服務</p>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">送禮用包裝+100</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">無框畫+250</label>
+                              </div>
+                        </div>
+                        <!-- 備註 textarea -->
+                        <div class="form-floating mb-4">
+                            <p class="mb-2">備註說明</p>
+                            <textarea class="form-control rounded-5" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2"></label>
+                          </div>
+                        <p class="h4 text-center fw-bold my-3">總金額NT$ 300</p>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-info rounded-pill btn-lg d-block mx-auto px-5 mb-3">送出訂購資訊</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+  <!-- 侷限 -->
+<div class="border-bottom border-info border-3 mt-5"></div>
+  <section class="container">
+    <div class="row justify-content-center py-5 g-5">
+    <div class="col-lg-5 ">
+      <div class="row justify-content-center">
+        <div class="col-sm-5 text-center">
+          <img src="/imgae/link01.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-5 text-center ">
+          <h4>加入奴才團隊</h4>
+          <p>我也會畫畫，希望能盡一份心力！</p>
+          <button type="button" class="btn btn-outline-info rounded-pill ">  <a href="#" class=" text-dark link-light text-decoration-none">聯絡我們</a> </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-5  ">
+      <div class="row justify-content-center">
+        <div class="col-sm-5 text-center">
+          <img src="/imgae/link02.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-sm-5 text-center ">
+          <h4>加入奴才團隊</h4>
+          <p>我也會畫畫，希望能盡一份心力！</p>
+          <button type="button" class="btn btn-outline-info rounded-pill ">  <a href="#" class=" text-dark link-light text-decoration-none">領養專區</a> </button>
+        </div>
+      </div>
+    </div> 
+      </div>
+    </div>
+  </section>
+
+
+  <footer style="background-color: #3A3A3A;">
+    <p class="mb-0 p-4 text-white text-center">Copyright © 2021 撿到寶.All rights reserved.</p>
+  </footer>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
