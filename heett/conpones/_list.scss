@@ -35,7 +35,7 @@
 
 .custom-card:hover{
     img{
-        content: url("https://github.com/shawn123eren/dog/blob/main/imgae/dog01-hover.jpg?raw=true");
+        content: url("../imgae/dog01-hover.jpg");
     }
 
     .custom-text{
@@ -48,7 +48,7 @@
 .custom-card-2{
     &:hover{
         img{
-            content: url("imgae/dog02-hover.jpg");
+            content: url("../imgae/dog02-hover.jpg");
         }
     }
 }
@@ -56,7 +56,7 @@
 .custom-card-3{
     &:hover{
         img{
-            content: url("imgae/dog02-hover-1.jpg");
+            content: url("../imgae/dog02-hover-1.jpg");
         }
     }
 }
