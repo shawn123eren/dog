@@ -10347,18 +10347,18 @@ body {
 }
 
 .custom-card:hover img {
-  content: url(dog/imgae/dog01-hover.jpg);
+  content: url(".../imgae/dog01-hover.jpg");
 }
 .custom-card:hover .custom-text a {
   color: #F9C745;
 }
 
 .custom-card-2:hover img {
-  content: url(dog/imgae/dog02-hover.jpg);
+  content: url(".../imgae/dog02-hover.jpg");
 }
 
 .custom-card-3:hover img {
-  content: url(dog/imgae/dog02-hover-1.jpg);
+  content: url(".../imgae/dog02-hover-1.jpg");
 }
 
 .list-hover a {
